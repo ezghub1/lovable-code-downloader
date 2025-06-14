@@ -14,11 +14,9 @@ A Chrome extension that allows you to download source code from Lovable projects
 ## Installation
 
 1. Download or clone this extension code
-2. Replace the placeholder JSZip library in `lib/jszip.min.js` with the actual JSZip library from [GitHub](https://github.com/Stuk/JSZip/releases)
-3. Create icon files (16x16, 32x32, 48x48, 128x128 pixels) and place them in an `icons/` folder
-4. Open Chrome and go to `chrome://extensions/`
-5. Enable "Developer mode" in the top right
-6. Click "Load unpacked" and select the extension folder
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable "Developer mode" in the top right
+4. Click "Load unpacked" and select the extension folder
 
 ## Usage
 
