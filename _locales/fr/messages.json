@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "Téléchargeur de Code Lovable"
+  },
+  "extensionDescription": {
+    "message": "Télécharge le code source des projets Lovable sous forme de fichiers ZIP"
+  },
+  "downloadProjectCode": {
+    "message": "Télécharger le Code du Projet"
+  },
+  "downloading": {
+    "message": "Téléchargement..."
+  },
+  "downloadComplete": {
+    "message": "Téléchargement Terminé"
+  },
+  "retryDownload": {
+    "message": "Réessayer le Téléchargement"
+  },
+  "tokenFound": {
+    "message": "Token trouvé"
+  },
+  "readyToDownload": {
+    "message": "Prêt à télécharger le code du projet."
+  },
+  "downloadSuccess": {
+    "message": "$COUNT$ fichiers téléchargés avec succès !",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "Échec du téléchargement : $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Erreur réseau"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "Cette extension ne fonctionne que sur les pages de projet Lovable."
+  },
+  "couldNotExtractProjectId": {
+    "message": "Impossible d'extraire l'ID du projet de l'URL."
+  },
+  "couldNotFindToken": {
+    "message": "Impossible de trouver le token d'authentification sur la page. Assurez-vous d'être connecté."
+  },
+  "errorCommunicating": {
+    "message": "Erreur de communication avec la page. Veuillez actualiser et réessayer."
+  },
+  "projectId": {
+    "message": "ID du Projet"
+  },
+  "status": {
+    "message": "Statut"
+  }
+}

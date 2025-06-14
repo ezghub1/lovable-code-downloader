@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "Загрузчик Кода Lovable"
+  },
+  "extensionDescription": {
+    "message": "Загружайте исходный код проектов Lovable в виде ZIP-файлов"
+  },
+  "downloadProjectCode": {
+    "message": "Скачать Код Проекта"
+  },
+  "downloading": {
+    "message": "Загрузка..."
+  },
+  "downloadComplete": {
+    "message": "Загрузка Завершена"
+  },
+  "retryDownload": {
+    "message": "Повторить Загрузку"
+  },
+  "tokenFound": {
+    "message": "Токен найден"
+  },
+  "readyToDownload": {
+    "message": "Готов к загрузке кода проекта."
+  },
+  "downloadSuccess": {
+    "message": "Успешно загружено $COUNT$ файлов!",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "Ошибка загрузки: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Сетевая ошибка"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "Это расширение работает только на страницах проектов Lovable."
+  },
+  "couldNotExtractProjectId": {
+    "message": "Не удалось извлечь ID проекта из URL."
+  },
+  "couldNotFindToken": {
+    "message": "Не удалось найти токен аутентификации на странице. Убедитесь, что вы вошли в систему."
+  },
+  "errorCommunicating": {
+    "message": "Ошибка связи со страницей. Пожалуйста, обновите и попробуйте снова."
+  },
+  "projectId": {
+    "message": "ID Проекта"
+  },
+  "status": {
+    "message": "Статус"
+  }
+}

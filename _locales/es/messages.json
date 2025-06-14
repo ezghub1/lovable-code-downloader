@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "Descargador de Código Lovable"
+  },
+  "extensionDescription": {
+    "message": "Descarga el código fuente de proyectos Lovable como archivos ZIP"
+  },
+  "downloadProjectCode": {
+    "message": "Descargar Código del Proyecto"
+  },
+  "downloading": {
+    "message": "Descargando..."
+  },
+  "downloadComplete": {
+    "message": "Descarga Completa"
+  },
+  "retryDownload": {
+    "message": "Reintentar Descarga"
+  },
+  "tokenFound": {
+    "message": "Token encontrado"
+  },
+  "readyToDownload": {
+    "message": "Listo para descargar el código del proyecto."
+  },
+  "downloadSuccess": {
+    "message": "¡Se descargaron exitosamente $COUNT$ archivos!",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "Descarga falló: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error de red"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "Esta extensión solo funciona en páginas de proyectos Lovable."
+  },
+  "couldNotExtractProjectId": {
+    "message": "No se pudo extraer el ID del proyecto de la URL."
+  },
+  "couldNotFindToken": {
+    "message": "No se pudo encontrar el token de autenticación en la página. Asegúrate de haber iniciado sesión."
+  },
+  "errorCommunicating": {
+    "message": "Error comunicándose con la página. Por favor actualiza e intenta de nuevo."
+  },
+  "projectId": {
+    "message": "ID del Proyecto"
+  },
+  "status": {
+    "message": "Estado"
+  }
+}

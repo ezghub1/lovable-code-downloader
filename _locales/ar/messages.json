@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "منزل كود Lovable"
+  },
+  "extensionDescription": {
+    "message": "تنزيل كود مشاريع Lovable كملفات ZIP"
+  },
+  "downloadProjectCode": {
+    "message": "تنزيل كود المشروع"
+  },
+  "downloading": {
+    "message": "جاري التنزيل..."
+  },
+  "downloadComplete": {
+    "message": "اكتمل التنزيل"
+  },
+  "retryDownload": {
+    "message": "إعادة محاولة التنزيل"
+  },
+  "tokenFound": {
+    "message": "تم العثور على الرمز"
+  },
+  "readyToDownload": {
+    "message": "جاهز لتنزيل كود المشروع."
+  },
+  "downloadSuccess": {
+    "message": "تم تنزيل $COUNT$ ملف بنجاح!",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "فشل التنزيل: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "خطأ في الشبكة"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "هذا الامتداد يعمل فقط على صفحات مشاريع Lovable."
+  },
+  "couldNotExtractProjectId": {
+    "message": "لا يمكن استخراج معرف المشروع من عنوان URL."
+  },
+  "couldNotFindToken": {
+    "message": "لا يمكن العثور على رمز المصادقة في الصفحة. تأكد من تسجيل الدخول."
+  },
+  "errorCommunicating": {
+    "message": "خطأ في التواصل مع الصفحة. يرجى التحديث والمحاولة مرة أخرى."
+  },
+  "projectId": {
+    "message": "معرف المشروع"
+  },
+  "status": {
+    "message": "الحالة"
+  }
+}

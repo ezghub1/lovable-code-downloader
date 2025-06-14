@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+    
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    
+    .status {
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+    
+    .status.success {
+      background-color: #f0f9ff;
+      border: 1px solid #0ea5e9;
+      color: #0369a1;
+    }
+    
+    .status.error {
+      background-color: #fef2f2;
+      border: 1px solid #ef4444;
+      color: #dc2626;
+    }
+    
+    .status.warning {
+      background-color: #fffbeb;
+      border: 1px solid #f59e0b;
+      color: #d97706;
+    }
+    
+    .download-btn {
+      width: 100%;
+      padding: 12px 16px;
+      background: #0ea5e9;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    
+    .download-btn:hover:not(:disabled) {
+      background: #0284c7;
+    }
+    
+    .download-btn:disabled {
+      background: #9ca3af;
+      cursor: not-allowed;
+    }
+    
+    .project-info {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 16px;
+      padding: 8px;
+      background: #f9fafb;
+      border-radius: 4px;
+    }
+    
+    .loading {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      border-top-color: transparent;
+      animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7,10 12,15 17,10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    <div class="title" data-i18n="extensionName">Lovable Code Downloader</div>
+  </div>
+  
+  <div id="status" class="status hidden"></div>
+  
+  <div id="project-info" class="project-info hidden">
+    <div><span data-i18n="projectId">Project ID</span>: <span id="project-id"></span></div>
+    <div><span data-i18n="status">Status</span>: <span id="token-status"></span></div>
+  </div>
+  
+  <button id="download-btn" class="download-btn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7,10 12,15 17,10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    <span data-i18n="downloadProjectCode">Download Project Code</span>
+  </button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

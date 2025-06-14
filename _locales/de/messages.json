@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "Lovable Code Downloader"
+  },
+  "extensionDescription": {
+    "message": "Lade Lovable-Projekt-Quellcode als ZIP-Dateien herunter"
+  },
+  "downloadProjectCode": {
+    "message": "Projekt-Code Herunterladen"
+  },
+  "downloading": {
+    "message": "Wird heruntergeladen..."
+  },
+  "downloadComplete": {
+    "message": "Download Abgeschlossen"
+  },
+  "retryDownload": {
+    "message": "Download Wiederholen"
+  },
+  "tokenFound": {
+    "message": "Token gefunden"
+  },
+  "readyToDownload": {
+    "message": "Bereit zum Herunterladen des Projekt-Codes."
+  },
+  "downloadSuccess": {
+    "message": "$COUNT$ Dateien erfolgreich heruntergeladen!",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "Download fehlgeschlagen: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Netzwerkfehler"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "Diese Erweiterung funktioniert nur auf Lovable-Projektseiten."
+  },
+  "couldNotExtractProjectId": {
+    "message": "Projekt-ID konnte nicht aus der URL extrahiert werden."
+  },
+  "couldNotFindToken": {
+    "message": "Authentifizierungs-Token konnte auf der Seite nicht gefunden werden. Stellen Sie sicher, dass Sie angemeldet sind."
+  },
+  "errorCommunicating": {
+    "message": "Fehler bei der Kommunikation mit der Seite. Bitte aktualisieren Sie und versuchen Sie es erneut."
+  },
+  "projectId": {
+    "message": "Projekt-ID"
+  },
+  "status": {
+    "message": "Status"
+  }
+}

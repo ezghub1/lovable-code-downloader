@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "Lovable コードダウンローダー"
+  },
+  "extensionDescription": {
+    "message": "LovableプロジェクトのソースコードをZIPファイルとしてダウンロード"
+  },
+  "downloadProjectCode": {
+    "message": "プロジェクトコードをダウンロード"
+  },
+  "downloading": {
+    "message": "ダウンロード中..."
+  },
+  "downloadComplete": {
+    "message": "ダウンロード完了"
+  },
+  "retryDownload": {
+    "message": "ダウンロードを再試行"
+  },
+  "tokenFound": {
+    "message": "トークンが見つかりました"
+  },
+  "readyToDownload": {
+    "message": "プロジェクトコードをダウンロードする準備ができました。"
+  },
+  "downloadSuccess": {
+    "message": "$COUNT$個のファイルが正常にダウンロードされました！",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "ダウンロードに失敗しました：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "ネットワークエラー"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "この拡張機能はLovableプロジェクトページでのみ動作します。"
+  },
+  "couldNotExtractProjectId": {
+    "message": "URLからプロジェクトIDを抽出できませんでした。"
+  },
+  "couldNotFindToken": {
+    "message": "ページで認証トークンが見つかりませんでした。ログインしていることを確認してください。"
+  },
+  "errorCommunicating": {
+    "message": "ページとの通信エラー。更新して再試行してください。"
+  },
+  "projectId": {
+    "message": "プロジェクトID"
+  },
+  "status": {
+    "message": "ステータス"
+  }
+}

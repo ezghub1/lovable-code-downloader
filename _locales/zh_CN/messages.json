@@ -1,0 +1,63 @@
+
+{
+  "extensionName": {
+    "message": "Lovable 代码下载器"
+  },
+  "extensionDescription": {
+    "message": "将 Lovable 项目源代码下载为 ZIP 文件"
+  },
+  "downloadProjectCode": {
+    "message": "下载项目代码"
+  },
+  "downloading": {
+    "message": "正在下载..."
+  },
+  "downloadComplete": {
+    "message": "下载完成"
+  },
+  "retryDownload": {
+    "message": "重试下载"
+  },
+  "tokenFound": {
+    "message": "找到令牌"
+  },
+  "readyToDownload": {
+    "message": "准备下载项目代码。"
+  },
+  "downloadSuccess": {
+    "message": "成功下载了 $COUNT$ 个文件！",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "downloadFailed": {
+    "message": "下载失败：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "网络错误"
+      }
+    }
+  },
+  "onlyWorksOnLovable": {
+    "message": "此扩展程序仅适用于 Lovable 项目页面。"
+  },
+  "couldNotExtractProjectId": {
+    "message": "无法从 URL 中提取项目 ID。"
+  },
+  "couldNotFindToken": {
+    "message": "在页面上找不到身份验证令牌。请确保您已登录。"
+  },
+  "errorCommunicating": {
+    "message": "与页面通信时出错。请刷新并重试。"
+  },
+  "projectId": {
+    "message": "项目 ID"
+  },
+  "status": {
+    "message": "状态"
+  }
+}
